@@ -22,8 +22,14 @@
             $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
         }
         $csrf_token = $_SESSION['csrf_token'];
-        include 'navigation.php';
+        
     ?>
+    <div id="navbar"></div>
+            <script>
+            fetch('navigation.html')
+              .then(res => res.text())
+              .then(html => document.getElementById('navbar').innerHTML = html);
+            </script>
     <section class="py-5">
         <div class="container px-5">
             <div class="bg-light rounded-4 py-5 px-4 px-md-5">
@@ -64,7 +70,12 @@
         </div>
     </section>
 </main>
-<?php include 'footer.php'; ?>
+<div id="footer"></div>
+            <script>
+            fetch('footer.html')
+              .then(res => res.text())
+              .then(html => document.getElementById('footer').innerHTML = html);
+            </script>
 
 <script>
 document.getElementById('contactForm').addEventListener('submit', function(e) {

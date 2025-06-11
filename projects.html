@@ -20,7 +20,12 @@
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <?php include 'navigation.php'; ?>
+            <div id="navbar"></div>
+            <script>
+            fetch('navigation.html')
+              .then(res => res.text())
+              .then(html => document.getElementById('navbar').innerHTML = html);
+            </script>
             <!-- Projects Section-->
             <section class="py-5">
                 <div class="container px-5 mb-5">
@@ -75,7 +80,12 @@
             </section>
         </main>
         <!-- Footer-->
-        <?php include 'footer.php'; ?>
+        <div id="footer"></div>
+            <script>
+            fetch('footer.html')
+              .then(res => res.text())
+              .then(html => document.getElementById('footer').innerHTML = html);
+            </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
