@@ -2872,12 +2872,16 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #5a1500;
+  --bs-btn-color: #5a1500;
+  --bs-btn-bg: #ffffff;
   --bs-btn-border-color: #5a1500;
-  --bs-btn-hover-color: #5a1500;
-  --bs-btn-hover-bg: #fff;
-  --bs-btn-hover-border-color: #5a1500;
+
+
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #ffc107;
+
+
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #1826c2;
@@ -11584,13 +11588,15 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  /*background: linear-gradient(315deg, #D4A017 0%, #2E0F0F 100%);*/
-  background: linear-gradient(315deg, #A52A2A 0%, #1C0A0A 100%);
+  background: linear-gradient(315deg, #FFD700 0%, #800020 100%);
+ /* background: linear-gradient(315deg, #A52A2A 0%, #1C0A0A 100%);
+ 315deg, #FFD700 0%, #800020 100%
+ 315deg, #FFFFFF 0%, #000000 100%*/
 }
 
 .text-gradient {
-  /*background: -webkit-linear-gradient(315deg, #FFD700 0%, #333333 100%);*/
-  background: -webkit-linear-gradient(315deg, #A52A2A 0%, #1C0A0A 100%);
+  background: -webkit-linear-gradient(315deg, #FFD700 0%, #800020 100%);
+  /*background: -webkit-linear-gradient(315deg, #A52A2A 0%, #1C0A0A 100%);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11762,3 +11768,16 @@ html {
     left: -2vw;
   }
 }
+
+.progress {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    transition: width 2s ease;
+  }

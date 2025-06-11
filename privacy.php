@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Luis Fernando</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+    
+        <!-- Navigation-->
+        <?php include 'navigation.php'; ?>
+    
+    <main class="flex-shrink-0">
+        <section class="py-5">
+            <div class="container px-5">
+                <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+                    <div class="text-center mb-5">
+                        <h1 class="fw-bolder">Privacy Policy</h1>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-12">
+                           <h1>Privacy Policy</h1>
+
+                            <p>
+                            In accordance with the General Data Protection Regulation (EU) 2016/679 (GDPR) and Spanish Law 34/2002 on Information Society Services and Electronic Commerce (LSSI-CE), users are informed of the following:
+                            </p>
+                            
+                            <h2>1. Data Controller</h2>
+                            <p>
+                            Name: Luis Fernando Paz <br>
+                            Email: luisfernando.paz99@gmail.com <br>
+                            Purpose of the website: Personal portfolio and professional presentation.
+                            </p>
+                            
+                            <h2>2. Purpose of Data Processing</h2>
+                            <p>
+                            Personal data collected via the contact form is used solely to respond to inquiries or contact requests received.
+                            No commercial emails or transfers to third parties will be made.
+                            </p>
+                            
+                            <h2>3. Legal Basis</h2>
+                            <p>
+                            The legal basis for processing is the consent of the user when submitting the contact form.
+                            </p>
+                            
+                            <h2>4. Data Retention</h2>
+                            <p>
+                            Data will be kept only as long as necessary to respond to the inquiry or request.
+                            </p>
+                            
+                            <h2>5. User Rights</h2>
+                            <p>
+                            Users may exercise their rights of access, rectification, deletion, limitation, objection, and portability by contacting <a href="mailto:luisfernando.paz99@gmail.com">luisfernando.paz99@gmail.com</a>. 
+                            In case of disagreement, users can lodge a complaint with the Spanish Data Protection Agency (AEPD).
+                            </p>
+                            
+                            <h2>6. Data Security</h2>
+                            <p>
+                            Appropriate technical measures are in place to guarantee the security and integrity of user-provided data.
+                            </p>
+                            
+                            <h2>7. Cookies</h2>
+                            <p>
+                            This website currently does not use its own or third-party cookies for analytical or advertising purposes. Only technical cookies necessary for website operation are in use.
+                            <br><strong>Note:</strong> In the future, the website may use Google Analytics, third-party cookies, or subscription forms. If so, this policy will be updated accordingly (you can request assistance to modify this policy when needed).
+                            </p>
+                            
+                            <h2>8. Third-party Links</h2>
+                            <p>
+                            This site may include links to third-party websites. We are not responsible for their privacy practices or content.
+                            </p>
+                            
+                            <h2>9. Changes to this Privacy Policy</h2>
+                            <p>
+                            We reserve the right to modify this Privacy Policy in order to comply with legal changes or updates to the website’s functionality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <?php include 'footer.php'; ?>
+
+    </body>
+</html>

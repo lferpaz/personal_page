@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Luis Fernando</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <?php include 'navigation.php'; ?>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                                    <div class="text-uppercase">IT Solutions · Business Value · Results</div>
+                                </div>
+                                <h1 class="display-4 fw-bolder mb-3">
+                                    <span class="text-gradient d-inline">Transforming Ideas into Impactful Solutions</span>
+                                </h1>
+                                <p class="fs-4 fw-light text-muted mb-4">
+                                    I help companies innovate smarter, optimize operations, and deliver measurable outcomes through tailored IT strategies.
+                                </p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.php">View Resume</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.php">See Projects</a>
+                                    <a class="btn btn-outline-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.php">Let's Connect</a>
+                                </div>
+                                <p class="fs-6 text-muted mt-4">Ready to drive innovation together? Scroll down to learn more.</p>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <!-- Header profile picture-->
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <img class="profile-img" src="assets/me_portada.png" alt="Luis Fernando" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- About Section-->
+            <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 ">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+                                <p class="lead fw-light mb-4">Hi, I'm Luis Fernando, an <span class="highlight">IT professional</span> passionate about turning ideas into <span class="highlight">impactful solutions</span>. With a knack for <span class="highlight">streamlining operations</span> and leveraging <span class="highlight">emerging technologies</span>, I thrive on driving <span class="highlight">efficiency</span> and <span class="highlight">innovation</span> in every project.</p>
+                                <p class="lead fw-light mb-4">My experience collaborating with diverse teams has sharpened my <span class="highlight">communication skills</span> and ability to deliver <span class="highlight">results</span> under pressure. From optimizing workflows to implementing cutting-edge tools, I’m committed to creating <span class="highlight">value</span> that powers <span class="highlight">business success</span>. When I’m not diving into tech, you’ll find me exploring new ways to stay ahead of <span class="highlight">industry trends</span> or unwinding with a good sci-fi novel.</p>
+                                <p class="lead fw-light mb-4">Let’s connect to bring your vision to life—check out my <a href="projects.php" class="cta">portfolio</a> or <a href="contact.php" class="cta">reach out</a> to start a conversation!</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 ">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                            <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Working on</span></h2>
+                            <p class="lead fw-light mb-4">
+                              A quick glimpse into my latest projects, technologies I'm exploring, and ideas I'm developing.
+                            </p>
+                            <p id="currentWork" class="fw-semibold text-dark" style="font-size: 1.5rem;"></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 ">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+
+              <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">My Skill Set</h2>
+              <div class="row ">
+
+                <div class="col-md-3 mb-4">
+                  <h6>Project Management & Coordination</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-primary" data-progress="70%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                  <h6>Process Automation & Workflow Optimization</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" data-progress="75%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                  <h6>Task Management & Agile Methodologies</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" data-progress="80%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                  <h6>Software Deployment in Production Environments</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-progress="65%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                  <h6>Technical Problem-Solving</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger" data-progress="90%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                  <h6>Stakeholder Communication</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" data-progress="85%"></div>
+                  </div>
+                </div>
+
+                </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+       
+
+         <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 ">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+           <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Did You Know?</h2>
+          <p id="funFact" class="lead text-muted"  style="font-size: 1.5rem; text-align: center;">Click the button below to reveal a fun fact about me!</p>
+          <button onclick="showFact()" class="btn btn-primary mt-3">Show Fun Fact</button>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4" id="motivationalText">Let's build something together !</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+      
+        <?php include 'footer.php'; ?>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+        const works = [
+          "🚀 Building automation tools with Python",
+          "☁️ Exploring Azure Cloud solutions",
+          "📝 Writing a blog on Project Management",
+          "🔍 Experimenting with React for dashboards"
+        ];
+        let index = 0;
+        setInterval(() => {
+          document.getElementById('currentWork').textContent = works[index];
+          index = (index + 1) % works.length;
+        }, 3000);
+        </script>
+
+        
+
+        <script>
+          function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+              rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+              rect.bottom >= 0
+            );
+          }
+      
+          function animateProgressBars() {
+            const progressBars = document.querySelectorAll('.progress-bar');
+            progressBars.forEach(bar => {
+              if (isInViewport(bar) && !bar.classList.contains('animated')) {
+                bar.style.width = bar.getAttribute('data-progress');
+                bar.classList.add('animated'); // Marca como animada para no repetir
+              }
+            });
+          }
+      
+          window.addEventListener('scroll', animateProgressBars);
+          window.addEventListener('load', animateProgressBars);
+        </script>
+
+        <script>
+        const facts = [
+          "If I don’t say what’s on my mind, I might just explode 💥😅.",
+          "Nothing clears my head like a good mountain walk 🏔️🚶‍♂️✨.",
+          "Lived in 3 countries... and counting! 🌍✈️.",
+          "Weird flex: I’m that 1% who doesn’t like chocolate 🍫❌🤷‍♂️.",
+          "80% of my productivity runs on coffee ☕⚡💻."
+        ];
+        function showFact() {
+          const fact = facts[Math.floor(Math.random() * facts.length)];
+          document.getElementById('funFact').textContent = fact;
+        }
+        </script>
+
+        <script>
+        const motivationalPhrases = [
+            "Let's build something together!",
+            "Stay curious, stay motivated!",
+            "Your future is created by what you do today.",
+            "Small steps every day lead to big results.",
+            "Innovation starts with courage.",
+            "The best way to predict the future is to create it.",
+            "Dream big. Work hard. Stay humble."
+        ];
+
+        let phraseIndex = 0;
+        const textElement = document.getElementById('motivationalText');
+
+        setInterval(() => {
+            // Fade out
+            textElement.style.opacity = 0;
+
+            setTimeout(() => {
+                // Change text after fade out
+                phraseIndex = (phraseIndex + 1) % motivationalPhrases.length;
+                textElement.textContent = motivationalPhrases[phraseIndex];
+                // Fade in
+                textElement.style.opacity = 1;
+            }, 1000); // Match with transition time (1s)
+        }, 5000); // Change phrase every 5 seconds
+        </script>
+
+    </body>
+</html>
