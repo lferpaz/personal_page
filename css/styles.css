@@ -630,6 +630,28 @@ progress {
   height: auto;
 }
 
+/* Móviles */
+@media (max-width: 576px) {
+  .img-fluid {
+    border-radius: 8px; /* Bordes redondeados en móvil */
+  }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .img-fluid {
+    border-radius: 12px;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 769px) {
+  .img-fluid {
+    border-radius: 16px;
+  }
+}
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4236,6 +4258,27 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+}
+
+/* Ajuste para pantallas pequeñas (teléfonos) */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 0.5rem; /* padding más pequeño en móviles */
+  }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .card-body {
+    padding: 1rem; /* padding intermedio */
+  }
+}
+
+/* Ajuste para pantallas grandes (desktops) */
+@media (min-width: 769px) {
+  .card-body {
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x); /* valor por defecto */
+  }
 }
 
 .card-title {
