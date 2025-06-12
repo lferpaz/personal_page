@@ -19,15 +19,19 @@
     </head>
     <body class="d-flex flex-column h-100">
     
-        <!-- Navigation-->
+        
+    
+    <main class="flex-shrink-0">
+
+<!-- Navigation-->
        <div id="navbar"></div>
             <script>
             fetch('navigation.html')
               .then(res => res.text())
               .then(html => document.getElementById('navbar').innerHTML = html);
             </script>
-    
-    <main class="flex-shrink-0">
+
+
         <section class="py-5">
             <div class="container px-5">
                 <div class="bg-light rounded-4 py-5 px-4 px-md-5">

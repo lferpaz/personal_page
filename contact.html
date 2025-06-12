@@ -30,45 +30,79 @@
               .then(res => res.text())
               .then(html => document.getElementById('navbar').innerHTML = html);
             </script>
+    
+    <section class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Contact Me Directly</h2>
+        <div class="d-flex justify-content-center gap-4">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/+34603414904" target="_blank" class="text-decoration-none text-dark fs-1">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <!-- Phone -->
+            <a href="tel:+34603414904" class="text-decoration-none text-dark fs-1">
+                <i class="bi bi-telephone"></i>
+            </a>
+            <!-- Email -->
+            <a href="mailto:luisfernando.paz99@gmail.com" class="text-decoration-none text-dark fs-1">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<br>
+    <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        
+                    </div>
+                </div>
+            </section>
+<br><br>
     <section class="py-5">
         <div class="container px-5">
             <div class="bg-light rounded-4 py-5 px-4 px-md-5">
                 <div class="text-center mb-5">
-                    <div class="feature bg-primary text-white rounded-3 mb-3"><span class="text-gradient d-inline"><i class="bi bi-envelope"></i></span></div>
+                   
                     <h1 class="fw-bolder">Get in touch</h1>
                     <h2 class="fw-normal text-muted mb-0">Let's work together!</h2>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
-                        <form id="contactForm">
-                            <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+                        <form action="mailto:luisfernando.paz99@gmail.com?subject=Contacto%20desde%20mi%20portafolio" method="post" enctype="text/plain">
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required />
-                                <label for="name">Full Name</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required />
-                                <label for="email">Email</label>
+                                <input class="form-control" type="text" name="name" placeholder="Your Name" required>
+                                <label>Name</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="1234567890" required />
-                                <label for="phone">Phone</label>
+                                <input class="form-control" type="email" name="email" placeholder="Your Email" required>
+                                <label>Email</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" name="message" placeholder="Your message" style="height: 10rem;" required></textarea>
-                                <label for="message">Message</label>
+                                <input class="form-control" type="tel" name="mobile" placeholder="Your Mobile" required>
+                                <label>Mobile</label>
                             </div>
-                            <div id="submitSuccessMessage" class="d-none text-center text-success mb-3">Message sent successfully!</div>
-                            <div id="submitErrorMessage" class="d-none text-center text-danger mb-3">There was an error sending your message.</div>
-                            <div class="d-grid">
-                                <button class="btn btn-primary" type="submit">Send</button>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" name="message" placeholder="Your Message" required></textarea>
+                                <label>Message</label>
                             </div>
+                            <button type="submit" class="btn btn-primary">Send Email</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+<section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        
+                    </div>
+                </div>
+            </section>
+
 </main>
 <div id="footer"></div>
             <script>
