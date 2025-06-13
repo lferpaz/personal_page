@@ -30,7 +30,7 @@ This project uses the [MIT License](https://opensource.org/licenses/MIT) via the
 ## 👤 Author
 
 **Your Name**  
-[Your LinkedIn](https://linkedin.com/in/your-profile) | [Your GitHub](https://github.com/yourusername)
+[Your LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/lferpaz99/)) | [Your GitHub]([https://github.com/yourusername](https://github.com/lferpaz/))
 
 ---
 
